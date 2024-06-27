@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r base_requirements.txt
 COPY . /app
 
 # Run iris_script.py when the container launches
-CMD ["python", "script/iris_script.py", "RandomForestClassifier"]
+# CMD ["python", "script/iris_script.py", "RandomForestClassifier"]
